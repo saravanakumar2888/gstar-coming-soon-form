@@ -274,7 +274,7 @@ const sendGstarEnquiryMail = async function (req, res, next) {
     }
 
     let sender = process.env.SENDER_EMAIL || "customer.care@augustpurple.com";
-    let reciever = (process.env.NOTIFY_EMAILS || "saravana.kumar@aceturtle.com").split(",");
+    let reciever = ["saravana.kumar@aceturtle.com","saikumar.reddy@aceturtle.com"]
     let body = JSON.stringify(req.body);
     sgMail.setApiKey(apiKey);
     const html = `
