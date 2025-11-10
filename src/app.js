@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/", routes);
 
 // ✅ Redirect root to /gstar (not /api/v1/gstar-form)
-app.get("/", (req, res) => res.redirect("/gstar"));
+//app.get("/", (req, res) => res.redirect("/gstar"));
 
 // ✅ Start server
 const PORT = process.env.PORT || 8081;
