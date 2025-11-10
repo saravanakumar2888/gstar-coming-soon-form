@@ -1,0 +1,18 @@
+{
+  "name": "gstar-comingsoon-form",
+  "version": "1.0.0",
+  "description": "G-Star Coming Soon signup form with SendGrid email notifications",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": ["gstar", "coming-soon", "express", "sendgrid"],
+  "author": "Saravana Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
